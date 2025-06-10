@@ -32,27 +32,27 @@ Python pipeline for preprocessing &amp; feature-engineering Hyundai customer-ser
 ---
 
 ## 프로젝트 구조
-```arduino
-call-log-pipeline/
-├── README.md
-├── LICENSE # Apache 2.0
-├── requirements.txt
-├── configs/
-│ └── config.yaml # 데이터 경로·아이디 목록 설정
-├── data/
-│ ├── raw/ # 원본 CSV·XLS 데이터 (Git 관리 제외)
-│ └── processed/ # 결과물 저장 디렉터리
-├── src/
-│ ├── init.py
-│ ├── config.py # config.yaml 로딩
-│ ├── data_loader.py # CSV/XLS 읽기
-│ ├── preprocessing.py # 이벤트 매핑·필터링
-│ ├── feature_engineering.py # case_id 생성·플래그 추가·중복 제거
-│ └── main.py # 전체 파이프라인 실행 스크립트
-└── tests/
-├── test_preprocessing.py
-└── test_feature_engineering.py
-```
+   ```arduino
+   call-log-pipeline/
+   ├── README.md
+   ├── LICENSE # MIT
+   ├── requirements.txt
+   ├── configs/
+   │ └── config.yaml # 데이터 경로·아이디 목록 설정
+   ├── data/
+   │ ├── raw/ # 원본 CSV·XLS 데이터 (Git 관리 제외)
+   │ └── processed/ # 결과물 저장 디렉터리
+   ├── src/
+   │ ├── init.py
+   │ ├── config.py # config.yaml 로딩
+   │ ├── data_loader.py # CSV/XLS 읽기
+   │ ├── preprocessing.py # 이벤트 매핑·필터링
+   │ ├── feature_engineering.py # case_id 생성·플래그 추가·중복 제거
+   │ └── main.py # 전체 파이프라인 실행 스크립트
+   └── tests/
+   ├── test_preprocessing.py
+   └── test_feature_engineering.py
+   ```
 
 ## 설치 및 실행
 
