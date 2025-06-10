@@ -33,7 +33,7 @@ Python pipeline for preprocessing &amp; feature-engineering Hyundai customer-ser
 
 ## 프로젝트 구조
    ```arduino
-   call-log-pipeline/
+   customer-service-activity-analytics/
    ├── README.md
    ├── LICENSE # MIT
    ├── requirements.txt
