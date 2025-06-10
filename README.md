@@ -93,9 +93,9 @@ Python pipeline for preprocessing &amp; feature-engineering Hyundai customer-ser
       * 결과 CSV: data/processed/result_final.csv
    
 ## 테스트
-     ```bash
-     pytest --maxfail=1 --disable-warnings -q
-     ```
+   ```bash
+   pytest --maxfail=1 --disable-warnings -q
+   ```
 
 ## 라이선스
 자세한 내용은 LICENSE 파일을 참고하세요.
