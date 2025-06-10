@@ -1,7 +1,0 @@
-data_path:
-  raw: "./data/raw"
-  processed: "./data/processed"
-database_ids:
-  - N_R_2_01
-  - N_R_2_02
-  # …
