@@ -43,7 +43,7 @@ Python pipeline for preprocessing &amp; feature-engineering Hyundai customer-ser
    │ ├── raw/ # 원본 CSV·XLS 데이터 (Git 관리 제외)
    │ └── processed/ # 결과물 저장 디렉터리
    ├── src/
-   │ ├── init.py
+   │ ├── __init__.py
    │ ├── config.py # config.yaml 로딩
    │ ├── data_loader.py # CSV/XLS 읽기
    │ ├── preprocessing.py # 이벤트 매핑·필터링
