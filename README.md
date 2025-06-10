@@ -61,6 +61,7 @@ Python pipeline for preprocessing &amp; feature-engineering Hyundai customer-ser
    git clone https://github.com/your-id/call-log-pipeline.git
    cd call-log-pipeline
    ```
+   
 2. 가상환경 생성 & 활성화
   ```bash
   python3 -m venv .venv
@@ -68,11 +69,12 @@ Python pipeline for preprocessing &amp; feature-engineering Hyundai customer-ser
   .\.venv\Scripts\activate     # Windows
   ```
    
-2. 의존성 설치
+3. 의존성 설치
   ```bash
   pip install --upgrade pip
   pip install -r requirements.txt
   ```
+
 4. configs/config.yaml 수정
   ```bash
   data_path:
@@ -83,6 +85,7 @@ Python pipeline for preprocessing &amp; feature-engineering Hyundai customer-ser
     - N_R_2_02
     # …
   ```
+
 5. 파이프라인 실행
    ```bash
    python src/main.py configs/config.yaml
