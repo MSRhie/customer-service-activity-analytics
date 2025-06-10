@@ -1,7 +1,7 @@
 # customer-service-activity-analytics
 Python pipeline for preprocessing &amp; feature-engineering Hyundai customer-service call logs (CPI &amp; voice records)
 
-현대자동차 고객센터 CPI 이벤트 로그와 음성 통화 기록을 전처리·통합하여,  
+모 대기업 고객센터 CPI 이벤트 로그와 음성 통화 기록을 전처리·통합하여,  
 “case 단위”로 정리된 분석용 데이터셋을 생성하는 파이프라인입니다.
 
 ---
@@ -32,6 +32,7 @@ Python pipeline for preprocessing &amp; feature-engineering Hyundai customer-ser
 ---
 
 ## 프로젝트 구조
+```arduino
 call-log-pipeline/
 ├── README.md
 ├── LICENSE # Apache 2.0
@@ -51,6 +52,7 @@ call-log-pipeline/
 └── tests/
 ├── test_preprocessing.py
 └── test_feature_engineering.py
+```
 
 ## 설치 및 실행
 
