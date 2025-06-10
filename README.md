@@ -63,11 +63,11 @@ Python pipeline for preprocessing &amp; feature-engineering Hyundai customer-ser
    ```
    
 2. 가상환경 생성 & 활성화
-  ```bash
-  python3 -m venv .venv
-  source .venv/bin/activate    # macOS/Linux
-  .\.venv\Scripts\activate     # Windows
-  ```
+      ```bash
+      python3 -m venv .venv
+      source .venv/bin/activate    # macOS/Linux
+      .\.venv\Scripts\activate     # Windows
+      ```
    
 3. 의존성 설치
   ```bash
