@@ -57,10 +57,10 @@ Python pipeline for preprocessing &amp; feature-engineering Hyundai customer-ser
 ## 설치 및 실행
 
 1. 리포지토리 클론  
-   ```bash
-   git clone https://github.com/your-id/call-log-pipeline.git
-   cd call-log-pipeline
-   ```
+      ```bash
+      git clone https://github.com/your-id/call-log-pipeline.git
+      cd call-log-pipeline
+      ```
    
 2. 가상환경 생성 & 활성화
       ```bash
@@ -70,32 +70,32 @@ Python pipeline for preprocessing &amp; feature-engineering Hyundai customer-ser
       ```
    
 3. 의존성 설치
-  ```bash
-  pip install --upgrade pip
-  pip install -r requirements.txt
-  ```
+     ```bash
+     pip install --upgrade pip
+     pip install -r requirements.txt
+     ```
 
 4. configs/config.yaml 수정
-  ```bash
-  data_path:
-    raw: "./data/raw"
-    processed: "./data/processed"
-  database_ids:
-    - N_R_2_01
-    - N_R_2_02
-    # …
-  ```
+     ```bash
+     data_path:
+       raw: "./data/raw"
+       processed: "./data/processed"
+     database_ids:
+       - N_R_2_01
+       - N_R_2_02
+       # …
+     ```
 
 5. 파이프라인 실행
-   ```bash
-   python src/main.py configs/config.yaml
-   ```
-   * 결과 CSV: data/processed/result_final.csv
+      ```bash
+      python src/main.py configs/config.yaml
+      ```
+      * 결과 CSV: data/processed/result_final.csv
    
 ## 테스트
-  ```bash
-  pytest --maxfail=1 --disable-warnings -q
-  ```
+     ```bash
+     pytest --maxfail=1 --disable-warnings -q
+     ```
 
 ## 라이선스
 자세한 내용은 LICENSE 파일을 참고하세요.
